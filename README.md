@@ -10,7 +10,7 @@ A fun-but-serious fullstack Discord bot designed to mimic enterprise app archite
 
 ### Setup
 - [✅] Git repo with clean folder structure (`/bot`, `/backend`, `/infra`)
-- [ ] Python virtual environments and `.env` files
+- [✅] ~~Python virtual environments and~~ `.env` files
 - [ ] `Dockerfile` for the bot
 - [ ] `Dockerfile` for the backend Flask API
 - [ ] `docker-compose.yml` to run:
