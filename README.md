@@ -6,6 +6,11 @@ Virtual environment utilized, not in repo -
 Use w/
 source .venv/bin/activate
 
+To boot Docker - In root directory:
+docker compose up -d
+
+Tear down:
+docker compose down
 ---
 
 ## ✅ Phase 1: MVP Weekend Build (Core Systems)
