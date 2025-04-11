@@ -21,7 +21,7 @@ docker compose down
 - [✅] Git repo with clean folder structure (`/bot`, `/backend`, `/infra`)
 - [✅] ~~Python virtual environments and~~ `.env` files
 - [ ] `Dockerfile` for the bot
-- [ ] `Dockerfile` for the backend Flask API
+- [✅] `Dockerfile` for the backend Flask API
 - [ ] `docker-compose.yml` to run:
   - Bot container
   - Flask API container
