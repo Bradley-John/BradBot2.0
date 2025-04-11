@@ -2,6 +2,10 @@
 
 A fun-but-serious fullstack Discord bot designed to mimic enterprise app architecture. Built for learning, portfolio power, and maybe a little over-engineering.
 
+Virtual environment utilized, not in repo -
+Use w/
+source .venv/bin/activate
+
 ---
 
 ## ✅ Phase 1: MVP Weekend Build (Core Systems)
