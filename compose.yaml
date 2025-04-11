@@ -1,5 +1,5 @@
 services:
-  web: 
+  flask-backend: 
     build:
       context: src/backend
       target: builder
@@ -8,3 +8,18 @@ services:
     stop_signal: SIGINT
     ports:
       - '8000:8000'
+  postgres-db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./src/infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata:
