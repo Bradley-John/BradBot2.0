@@ -7,7 +7,7 @@ services:
     # (default stop signal from Compose is SIGTERM)
     stop_signal: SIGINT
     ports:
-      - '8000:8000'
+      - '8000:8000'      
   postgres-db:
     image: postgres:16-alpine
     restart: always
@@ -20,6 +20,17 @@ services:
       - ./src/infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
       - "5432:5432"
-
+  bradbot: 
+    build:
+      context: src/bot
+      target: builder 
+    stop_signal: SIGINT
+    depends_on:
+      - postgres-db
+      #pass thru env var to be able to utilize db
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
 volumes:
   pgdata:
