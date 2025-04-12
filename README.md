@@ -7,10 +7,10 @@ Use w/
 source .venv/bin/activate
 
 To boot Docker - In root directory:
-docker compose up -d
+docker compose up -d (--build to rebuild)
 
 Tear down:
-docker compose down
+docker compose down (-v if want to tear down volume)
 ---
 
 ## ✅ Phase 1: MVP Weekend Build (Core Systems)
@@ -20,9 +20,9 @@ docker compose down
 ### Setup
 - [✅] Git repo with clean folder structure (`/bot`, `/backend`, `/infra`)
 - [✅] ~~Python virtual environments and~~ `.env` files
-- [ ] `Dockerfile` for the bot
+- [✅] `Dockerfile` for the bot
 - [✅] `Dockerfile` for the backend Flask API
-- [ ] `docker-compose.yml` to run:
+- [✅] `docker-compose.yml` to run:
   - Bot container
   - Flask API container
   - Postgres DB
