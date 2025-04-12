@@ -11,6 +11,7 @@ docker compose up -d (--build to rebuild)
 
 Tear down:
 docker compose down (-v if want to tear down volume)
+
 ---
 
 ## ✅ Phase 1: MVP Weekend Build (Core Systems)
