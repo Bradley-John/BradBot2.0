@@ -91,7 +91,11 @@ docker compose down (-v if want to tear down volume)
 
 ## 📅 Milestone Log
 - **Weekend 1:**
-- Really just week 1, thinking about it. Haven't had much experience setting up a worthwhile side project, so funny to feel that some goals were ambitious and some felt like they weren't ambitious enough.
-- Found that Docker was as easy to set up for a new project as configuring/messing around with it on work projects were. No major issues this week, a lot of poking around and (re)learning some things I haven't touched in a bit (Ex: I certainly don't dockerize things at home). Maybe the only thing at this point was not paying attention and realizing "Oh yeah we didn't include .venv in git" which wasn't a huge realization, just more of a silly realization if anything.
-- It's taking some amount of effort to stop myself from rewriting/adding more to the current project plans.
-- That said, I still love this compared to my previous iteration which merely ran on the terminal and.. that's about it. Actually having more of a microservice built out feels leagues different even though the functionality of the bot is mostly the same at the moment.
+
+  Really just week 1, thinking about it. Haven't had much experience setting up a worthwhile side project, so funny to feel that some goals were ambitious and some felt like they weren't ambitious enough.
+
+  Found that Docker was as easy to set up for a new project as configuring/messing around with it on work projects were. No major issues this week, a lot of poking around and (re)learning some things I haven't touched in a bit (Ex: I certainly don't dockerize things at home). Maybe the only thing at this point was not paying attention and realizing "Oh yeah we didn't include .venv in git" which wasn't a huge realization, just more of a silly realization if anything.
+
+  It's taking some amount of effort to stop myself from rewriting/adding more to the current project plans.
+
+  That said, I still love this compared to my previous iteration which merely ran on the terminal and... that's about it. Actually having more of a microservice built out feels leagues different even though the functionality of the bot is mostly the same at the moment.
