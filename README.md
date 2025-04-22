@@ -99,3 +99,10 @@ docker compose down (-v if want to tear down volume)
   It's taking some amount of effort to stop myself from rewriting/adding more to the current project plans.
 
   That said, I still love this compared to my previous iteration which merely ran on the terminal and... that's about it. Actually having more of a microservice built out feels leagues different even though the functionality of the bot is mostly the same at the moment.
+- **Week 2.5ish:**
+ 
+  Had a bunch of prep for a vacation with friends and other life prep around that. In the most Linkedin "What I learned about B2B sales at irrelevant event" way, I found myself laughing at how even a personal side project can fall into the same pitfalls that work projects do in having events come up with conflicting timelines. Fun stuff!
+
+  First day back and this has been on my mind as I got home, so the current plan is to really just mess with some discord bot basics and see if I can implement that !ping commaand and really just around play with Discord. I do have goals of familiarizing myself more with the tools I've used at work with this, but I still intend on having the fun I initially planned on with this!
+
+  I'm thinking an immediate addition might be to add a table in the DB to store user stats, which leads to me not particularly knowing if I want to add message count related statistics per user or something that might not require a bot to always be online. Lots of potential here, I'll have to think a bit more than this adhoc message as I return home from vacation
